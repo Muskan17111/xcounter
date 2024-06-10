@@ -14,7 +14,7 @@ const Counter = () => {
   return (
     <div style={{ textAlign: 'start'}}>
       <h1>Counter App</h1>
-      <h2>{count}</h2>
+      <p>Count: {count}</p>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
     </div>
