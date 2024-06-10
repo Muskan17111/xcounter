@@ -12,7 +12,7 @@ const Counter = () => {
   };
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+    <div style={{ textAlign: 'start'}}>
       <h1>Counter App</h1>
       <h2>{count}</h2>
       <button onClick={increment}>Increment</button>
